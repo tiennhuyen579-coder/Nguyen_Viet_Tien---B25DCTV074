@@ -1,0 +1,11 @@
+.calculator { width: 320px; margin: 40px auto; }
+.display {
+  height: 80px; background: #ddd; text-align: right;
+  padding: 10px; font-size: 24px; box-sizing: border-box;
+  color: #000;
+}
+.keys { display: grid; grid-template-columns: repeat(4, 1fr); }
+.btn {
+  height: 50px; border: 1px solid #333; color: #000;
+  cursor: pointer; font-size: 16px;
+}
